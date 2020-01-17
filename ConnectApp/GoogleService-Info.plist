@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1040456711198-nn7cg33qjhnqf8gkbk5eem1iaov2pr1j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1040456711198-nn7cg33qjhnqf8gkbk5eem1iaov2pr1j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCptjoig7IeVwc_MD0BCv-J3qGZQxzfzko</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1040456711198</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>stephane-verardo.ConnectApp</string>
+	<key>PROJECT_ID</key>
+	<string>connectapp-fd105</string>
+	<key>STORAGE_BUCKET</key>
+	<string>connectapp-fd105.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1040456711198:ios:f1fd3e36fffeeef2cf020f</string>
+	<key>DATABASE_URL</key>
+	<string>https://connectapp-fd105.firebaseio.com</string>
+</dict>
+</plist>

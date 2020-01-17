@@ -3,27 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FBAA1804CF9C674F2313B3E /* Pods_ConnectApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BB4242A3FC4C5210751AEB /* Pods_ConnectApp.framework */; };
 		B1AE000023D0CCD000FF0A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AEFFFF23D0CCD000FF0A89 /* Assets.xcassets */; };
 		B1AE000323D0CCD000FF0A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AE000123D0CCD000FF0A89 /* LaunchScreen.storyboard */; };
 		B1AEFFF723D0CCCD00FF0A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEFFF623D0CCCD00FF0A89 /* AppDelegate.swift */; };
 		B1AEFFF923D0CCCD00FF0A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEFFF823D0CCCD00FF0A89 /* SceneDelegate.swift */; };
-		B1AEFFFB23D0CCCD00FF0A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEFFFA23D0CCCD00FF0A89 /* ViewController.swift */; };
+		B1AEFFFB23D0CCCD00FF0A89 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEFFFA23D0CCCD00FF0A89 /* SignupController.swift */; };
 		B1AEFFFE23D0CCCD00FF0A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AEFFFC23D0CCCD00FF0A89 /* Main.storyboard */; };
+		B1D87A8D23D1B1DA00A0B735 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1D87A8C23D1B1DA00A0B735 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864E61C5B7683718B9BD8C51 /* Pods-ConnectApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectApp.release.xcconfig"; path = "Target Support Files/Pods-ConnectApp/Pods-ConnectApp.release.xcconfig"; sourceTree = "<group>"; };
+		98316763FD056B23639D80BD /* Pods-ConnectApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectApp.debug.xcconfig"; path = "Target Support Files/Pods-ConnectApp/Pods-ConnectApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A6BB4242A3FC4C5210751AEB /* Pods_ConnectApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AE000223D0CCD000FF0A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1AE000423D0CCD000FF0A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1AEFFF323D0CCCD00FF0A89 /* ConnectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AEFFF623D0CCCD00FF0A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1AEFFF823D0CCCD00FF0A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1AEFFFA23D0CCCD00FF0A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1AEFFFA23D0CCCD00FF0A89 /* SignupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
 		B1AEFFFD23D0CCCD00FF0A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1AEFFFF23D0CCD000FF0A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D87A8523D1AB3A00A0B735 /* ConnectApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ConnectApp.entitlements; sourceTree = "<group>"; };
+		B1D87A8C23D1B1DA00A0B735 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBAA1804CF9C674F2313B3E /* Pods_ConnectApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +50,8 @@
 			children = (
 				B1AEFFF523D0CCCD00FF0A89 /* ConnectApp */,
 				B1AEFFF423D0CCCD00FF0A89 /* Products */,
+				FB9C512DB4A0C2E6E4009215 /* Pods */,
+				B2338CB99DE0ABE42C0D4686 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +66,34 @@
 		B1AEFFF523D0CCCD00FF0A89 /* ConnectApp */ = {
 			isa = PBXGroup;
 			children = (
+				B1D87A8523D1AB3A00A0B735 /* ConnectApp.entitlements */,
 				B1AEFFF623D0CCCD00FF0A89 /* AppDelegate.swift */,
 				B1AEFFF823D0CCCD00FF0A89 /* SceneDelegate.swift */,
-				B1AEFFFA23D0CCCD00FF0A89 /* ViewController.swift */,
+				B1AEFFFA23D0CCCD00FF0A89 /* SignupController.swift */,
 				B1AEFFFC23D0CCCD00FF0A89 /* Main.storyboard */,
 				B1AEFFFF23D0CCD000FF0A89 /* Assets.xcassets */,
 				B1AE000123D0CCD000FF0A89 /* LaunchScreen.storyboard */,
 				B1AE000423D0CCD000FF0A89 /* Info.plist */,
+				B1D87A8C23D1B1DA00A0B735 /* GoogleService-Info.plist */,
 			);
 			path = ConnectApp;
+			sourceTree = "<group>";
+		};
+		B2338CB99DE0ABE42C0D4686 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6BB4242A3FC4C5210751AEB /* Pods_ConnectApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9C512DB4A0C2E6E4009215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98316763FD056B23639D80BD /* Pods-ConnectApp.debug.xcconfig */,
+				864E61C5B7683718B9BD8C51 /* Pods-ConnectApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +103,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1AE000723D0CCD000FF0A89 /* Build configuration list for PBXNativeTarget "ConnectApp" */;
 			buildPhases = (
+				82C477BB756A7E933FCACAB4 /* [CP] Check Pods Manifest.lock */,
 				B1AEFFEF23D0CCCD00FF0A89 /* Sources */,
 				B1AEFFF023D0CCCD00FF0A89 /* Frameworks */,
 				B1AEFFF123D0CCCD00FF0A89 /* Resources */,
+				614683094E8088CD1B25CAC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AE000323D0CCD000FF0A89 /* LaunchScreen.storyboard in Resources */,
+				B1D87A8D23D1B1DA00A0B735 /* GoogleService-Info.plist in Resources */,
 				B1AE000023D0CCD000FF0A89 /* Assets.xcassets in Resources */,
 				B1AEFFFE23D0CCCD00FF0A89 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +165,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		614683094E8088CD1B25CAC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnectApp/Pods-ConnectApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConnectApp/Pods-ConnectApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConnectApp/Pods-ConnectApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C477BB756A7E933FCACAB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1AEFFEF23D0CCCD00FF0A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1AEFFFB23D0CCCD00FF0A89 /* ViewController.swift in Sources */,
+				B1AEFFFB23D0CCCD00FF0A89 /* SignupController.swift in Sources */,
 				B1AEFFF723D0CCCD00FF0A89 /* AppDelegate.swift in Sources */,
 				B1AEFFF923D0CCCD00FF0A89 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,8 +356,10 @@
 		};
 		B1AE000823D0CCD000FF0A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98316763FD056B23639D80BD /* Pods-ConnectApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ConnectApp/ConnectApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L325WJD5P6;
 				INFOPLIST_FILE = ConnectApp/Info.plist;
@@ -294,14 +370,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stephane-verardo.ConnectApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B1AE000923D0CCD000FF0A89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 864E61C5B7683718B9BD8C51 /* Pods-ConnectApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ConnectApp/ConnectApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L325WJD5P6;
 				INFOPLIST_FILE = ConnectApp/Info.plist;
@@ -312,7 +390,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "stephane-verardo.ConnectApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
